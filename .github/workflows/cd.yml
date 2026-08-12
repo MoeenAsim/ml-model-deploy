@@ -27,7 +27,7 @@ jobs:
       - name: Build Docker image
         run: |
           docker build \
-           -t ghcr.io/moeenasim/ml-model-deploy:latest
+            -t ghcr.io/moeenasim/ml-model-deploy:latest \
             .
 
       - name: Push Docker image
